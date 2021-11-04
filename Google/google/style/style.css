@@ -1,0 +1,106 @@
+* {
+  /*Este es el que se autoajusta*/
+  box-sizing: border-box;
+  /*margin: 0px;*/
+}
+header {
+  /* border: 1px solid red; */
+  width: 200px;
+  float: right;
+}
+.p-google {
+  /* font-weight: bold; */
+  float: left;
+}
+.p-google1 {
+  margin-left: 10px;
+}
+.img-avatar {
+  margin-left: 10px;
+}
+/* .container {
+  /* border: 1px solid red; */
+/* position: 50%; */
+/* position: absolute; }*/
+
+.img-logo {
+  /* margin-top: 100px;
+  margin-right: 170px; */
+  position: relative;
+  top: 100px;
+  left: 40%;
+  width: 300px;
+  height: 100px;
+  /* float: right; */
+}
+.img-barra {
+  position: relative;
+  top: 120px;
+  left: 34.2%;
+  /* border: 2px solid black;
+  border-top-right-radius: 0%; */
+}
+.botones-de-busqueda {
+  height: 50px;
+  width: 400px;
+  /* border: 1px solid black; */
+  position: relative;
+  top: 120px;
+  left: 40%;
+}
+.g-serch {
+  background-color: rgba(211, 210, 210, 0.24);
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  margin-top: 0px;
+}
+.g-serch > p {
+  position: relative;
+  top: 8px;
+}
+.Lucky {
+  position: relative;
+  left: 35%;
+  top: -92%; /*tamien sirven los numeros negativos*/
+  background-color: rgba(211, 210, 210, 0.24);
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  margin-top: 0px;
+}
+.Lucky > p {
+  position: relative;
+  top: 8px;
+}
+.g-offered {
+  position: relative;
+  top: 100px;
+  left: 42%;
+}
+.f {
+  /* border: 1px solid black; */
+  height: 100px;
+  width: auto;
+  background-color: rgba(224, 224, 224, 0.603);
+  position: relative;
+  bottom: -566px;
+  border: 1px solid rgb(168, 168, 168);
+}
+.Mexico {
+  border-bottom: 1px solid rgb(168, 168, 168);
+}
+.Mexico .footer {
+  margin-left: 20px;
+}
+.options .footer {
+  margin-left: 20px;
+  float: left;
+}
+.options .footer1 {
+  margin-right: 20px;
+  float: right;
+}
+.clear {
+  clear: both;
+}
